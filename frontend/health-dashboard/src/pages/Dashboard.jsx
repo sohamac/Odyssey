@@ -154,7 +154,7 @@ const Dashboard = () => {
 
   {/* Heading */}
   <h1 className="relative text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 animate-fade-in">
-    Odyssey - Make Today Count
+    Odyssey - Team Sunday
   </h1>
 
   {/* Subtext */}

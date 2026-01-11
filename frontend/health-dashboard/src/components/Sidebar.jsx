@@ -1,5 +1,6 @@
 // src/components/Sidebar.jsx
 import { NavLink } from "react-router-dom";
+
 import {
     FaUtensils,
     FaCarrot,
@@ -13,7 +14,8 @@ import {
     FaCalendarAlt,
     FaBook,          // book icon
     FaBookOpen,      // open book
-    FaGraduationCap, // graduation hat / learning
+    FaGraduationCap, 
+    FaTrophy// graduation hat / learning
 } from "react-icons/fa";
 import { useState } from "react";
 
@@ -25,6 +27,7 @@ const Sidebar = () => {
         { to: "/StudyManager", label: "Study Manager", icon: < FaGraduationCap /> },
         { to: "/ConsistencyTracker", label: "Habit Monitor", icon: <FaCalendarAlt /> },
         { to: "/workouts", label: "Workouts", icon: <FaDumbbell /> },
+        { to: "/leaderboard", label: "Leaderboard", icon: <FaTrophy /> },
 
     ];
 

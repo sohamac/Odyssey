@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import StudyManager from "./pages/StudyManager";
 import ConsistencyTracker from "./pages/ConsistencyTracker";
 import Workouts from "./pages/Workouts";
+import Leaderboard from "./pages/leaderboard";
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
           <Route path="/StudyManager" element={<StudyManager />} />
           <Route path="/ConsistencyTracker" element={<ConsistencyTracker/>} />
           <Route path="/workouts" element={<Workouts />} />
-
+          <Route path="/leaderboard" element={<Leaderboard />} />
         </Route>
       </Routes>
     </Router>
